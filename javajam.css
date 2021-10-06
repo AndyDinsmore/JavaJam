@@ -6,16 +6,23 @@ body {
 
 header {
     background-color: #d2b48c;
-    text-align: center;
+    height: 150px;
+    background-image: url(images/coffeelogo.jpg);
+    background-repeat: no-repeat;
 }
 
 h1 {
-    line-height: 200%;
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
 }
 
 nav {
     text-align: center;
     font-weight: bold;
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 footer {
@@ -23,10 +30,38 @@ footer {
     font-size: .6em;
     font-style: italic;
     text-align: center;
+    padding-bottom:10px;
+    border-top: #221811 solid 2px;
 }
 
 #wrapper {
+    background-color: #fef6c2;
+    min-width: 960px;
+    max-width: 1280px;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: 5px 5px 5px #828282;
+}
+h4 {
+    background-color: #d2b48c;
+    font-size:1.2em;
+    padding-left:.5em;
+    padding-bottom:.25em;
+}
+main {
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom:2em;
+
+}
+
+.details {
+    padding-left:20%;
+    padding-right:20%;
+}
+
+img {
+    padding-left:10px;
+    padding-right:10px;
 }
